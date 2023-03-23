@@ -1,0 +1,118 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+#principal1{
+    width: 1024px;
+    margin: 20px auto;
+
+}
+.bgPAG1{
+    height: 50px;
+    background-color: #162028;
+    position: relative;
+}
+.logo{
+    margin: 5px 0px 0px 135px;
+}
+.lista{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 100%;
+}
+.lista ul{
+    margin: 0;
+    padding: 0;
+}
+.lista li{
+    display: inline-block;
+    margin: 0px 20px 0px 0px;
+    list-style: none;
+    padding: 15px;
+}
+.lista a{
+    color: #425574;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 5px;
+    transition: color .4s linear;
+}
+.lista a:hover{
+    color: white;
+}
+.texto{
+    text-align: center;
+    padding: 60px 100px ;
+}
+.texto h1{
+    font-size: 36px;
+    color: #252525;
+}
+.texto p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    line-height: 36px;
+    color: #252525;
+}
+.sc1{
+    color: #252525;
+    padding: 0px 100px 50px 100px;
+    overflow: auto;
+}
+.card{
+    width: 32%;
+    float: left;
+    text-align: center;
+}
+.p1{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 17px;
+    font-weight: bold;
+}
+.texto2{
+    background-color: #003d52;
+    text-align: left;
+    padding: 100px;
+    color: white;
+    background-image: url(imagens/bg_detalhe.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+.texto2 h2{
+    font-size: 45px;
+    text-transform: uppercase;
+    font-weight: normal; 
+}
+.texto2 p{
+    line-height: 1.5;
+    width: 70%;
+}
+.contato{
+    text-align: center;
+    margin: 50px 0 ;
+    color: #003d52;
+    text-transform: uppercase;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: bold;
+}
+.maps{
+    width: 100%;
+    height: 450px;
+    margin-bottom: 50px;
+}
+.maps iframe{
+    width: 100%;
+}
+footer{
+    letter-spacing: 3px;
+    background-color: #162028;
+    text-align: center;
+    color:#425574;
+    padding: 10px;
+    font-size: 12px;
+}
